@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-new
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx-new
+      image: nginx
+    #    - name: busybox
+    #      image: busybox
+    
